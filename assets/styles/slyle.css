@@ -412,30 +412,6 @@ button a {
 }
 
 /* SECTION__COVER */
-.section__cover {
-    display: inline-block;
-}
-
-.cover__title {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 41,92px;
-    letter-spacing: 0.5px;
-    color:  #212a2f;
-    text-align: center;
-}
-
-.cover__subtitle {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color:  #212a2f;
-    text-align: center;
-
-    margin-top: 22px;
-    margin-bottom: 26px;
-}
 
 .button__cover {
     width: 384px;
@@ -477,3 +453,129 @@ button a {
     margin-bottom: 138px;
 }
 
+/* SIGN UP */
+.section__cover {
+    display: inline-block;
+    margin-top: 66px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-right: 10px;
+    margin-top: 50px;
+
+}
+
+.input-email {
+    width: 588px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+input {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #737373;
+    padding: 0 0 0 20px;
+    outline: none;
+}
+
+.subscribe__button {
+    width: 111px;
+    height: 48px;
+    background-color: #212A2F;
+    color: #fff;
+    border: 2px solid #212A2F;
+    text-transform: uppercase;
+    
+    padding: 0;
+}
+
+.email__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    
+    color:  #74797C;
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    margin-top: 48px;
+}
+
+.footer__menu {
+    background: #212A2F;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    padding: 72px 54px 0 54px;
+}
+
+.info {
+    width: 333px;
+    height: 347px;
+}
+
+.info__title {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.info__text {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    padding: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.follow__block {
+    margin-top: 85px;
+    margin-left: 30px;
+}
+
+.follow__title {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+.follow__text {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    padding: 21px;
+    color: #fff;
+}
+
+.end__title {
+    padding-top: 126px;
+    padding-bottom: 90px;
+    text-align: center;
+}
