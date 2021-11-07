@@ -330,7 +330,6 @@ body {
 /* SECTION__NATURAL */
 .section__natural {
     display: inline-block;
-    margin-bottom: 120px;
 }
 
 .natural__title {
@@ -387,3 +386,64 @@ button a {
     text-decoration: none; 
 }
 
+/* ARRIVALS */
+.section__arrivals {
+    width: 1440px;
+    margin-top: 120px;
+    margin-bottom: 134px;
+}
+
+.container__coll {
+    margin: 0 102px;
+}
+
+.arrivals__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41,92px; 
+    letter-spacing: 0.5px;
+    text-align: left;
+    color:  #212A2F;
+}
+
+.arrivals__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1236px;
+    margin-top: 24px;
+}
+
+.inner__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height:29,04px;
+    letter-spacing: 0.5px;
+    color:  #212a2f;
+
+    vertical-align: top;
+
+    padding: 17px 0 10px 0;
+}
+
+.inner__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color:  #212a2f;
+
+    text-align: Left;
+    vertical-align: top;
+}
+
+.text {
+    padding-left: 15px;
+}
+
+.inner__img {
+    width: 396px;
+    height: 396px;
+    background-color: rgba(241, 241, 241, 0.925);
+}
