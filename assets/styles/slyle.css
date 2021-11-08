@@ -81,7 +81,6 @@ body {
 }
 
 
-
 /* MAIN */
 .section__main {
     width: 100%;
@@ -116,7 +115,7 @@ body {
     padding-top: 11px;
 }
 
-/* BUTTONS */
+/* buttons main */
 .main__buttons {
     display: flex;
     flex-direction: row;
@@ -172,6 +171,187 @@ body {
     color: #fff;
     text-align: center;
     padding: 16px 32px;
+}
+
+
+/* SECTION FAVORITES */
+.section__favorites {
+    margin-top: 119px;
+}
+
+/* nav catalog */
+.nav__catalog {
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 32px;
+    margin-bottom: 12px;
+    margin-left: 350px;       
+}
+
+.nav__catalog a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #212A2F;
+    font-size: 16px;
+    padding-left: 132px;
+}
+
+/* catalog */
+.catalog {
+    margin: 0 auto;
+    width: 1236px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    position: relative;
+    border-top: 2px solid #D3D4D5;
+}
+
+.line {
+    display: block;
+    width: 161px;
+    
+    border-bottom: 3px solid #212A2F;
+
+    margin-left: 435px;
+}
+
+/* card__inner */
+.card__inner {
+    position: relative;
+    margin-top: 36px;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height:29,04px;
+    letter-spacing: 0.5px;
+    color:  #212a2f;
+
+    vertical-align: top;
+
+    padding: 17px 0 10px 5px;
+    
+    width: 336px;
+    border-bottom: 2px solid #D3D4D5;
+}
+
+.card__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color:  #212a2f;
+
+    text-align: Left;
+    vertical-align: top;
+
+    padding: 16px 0 10px 42px;
+}
+
+.card__icon {
+    position: absolute;
+    top: 92.5%;
+}
+
+/* BUTTONS - section catalog */
+.inner__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position:absolute;
+    top:30%;
+    left:15%;       
+}
+
+.inner__buttons a {
+    text-decoration: none;
+}
+
+.card__button__1 {
+    width: 276px;
+    height: 48px;
+    background-color:#fff;
+    border-radius: 2px;
+}
+
+.card__button__2 {
+    width: 276px;
+    height: 48px;
+    background-color:#fff;
+    margin-top: 12px;
+    border-radius: 2px;
+}
+
+.card__button__text {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #212A2F;
+    text-align: center;
+    padding: 18px 32px;
+}
+
+/* hover */
+.card__button__1:hover {
+    width: 276px;
+    height: 48px;
+    background-color:#212A2F;
+    border-radius: 2px;
+}
+
+.card__button__2:hover {
+    width: 276px;
+    height: 48px;
+    background-color:#212A2F;
+    margin-top: 12px;
+    border-radius: 2px;
+}
+
+.card__button__text:hover {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    padding: 18px 32px;
+}
+
+.card__inner:hover .card__images {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.card__inner:hover .inner__buttons {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.card__inner:hover .card__images {
+    opacity: .8;
+}
+
+.card__images {
+    transition: .2s linear;
+}
+
+.card__images__images {
+    display: block;
+    transition: opacity .1s linear;
+}
+
+.inner__buttons {
+    transition: .2s linear;
+}
+
+.inner__buttons__buttons {
+    display: block;
+    transition: opacity .1s linear;
 }
 
 
