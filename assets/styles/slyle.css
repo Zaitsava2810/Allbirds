@@ -23,8 +23,8 @@ body {
 }
 
 .container {
-    width: 1440px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
 }
 
 .header__inner {
@@ -77,7 +77,11 @@ body {
 .icon__logo {
     display: flex;
     justify-content: space-between;
-    width: 120px;
+    width: 10px;
+}
+
+.icon__3 {
+    margin-right: 15px;
 }
 
 /* burger */
@@ -104,7 +108,9 @@ body {
 
     background: url("../images/cover.jfif") center no-repeat;
     -webkit-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
+
+    margin: 0 auto;
 } 
 
 .main {
