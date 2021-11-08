@@ -425,7 +425,7 @@ body {
 .btn__1:hover {
     width: 180px;
     height: 48px;
-    background-color:rgb(204, 156, 110);
+    background-color:#cc9c6e;
 }
 
 .btn__2 {
@@ -437,7 +437,7 @@ body {
 .btn__2:hover {
     width: 180px;
     height: 48px;
-    background-color:rgb(204, 156, 110);
+    background-color:#cc9c6e;
 }
 
 .btn__text {
@@ -571,7 +571,7 @@ body {
 .button__coverl:hover {
     width: 384px;
     height: 48px;
-    background-color:rgb(204, 156, 110);
+    background-color:#cc9c6e;
     border: none;
 
     position: relative;
@@ -604,6 +604,19 @@ button a {
     background-color: rgba(241, 241, 241, 0.925);
 }
 
+.section__inner:hover .inner__img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.inner__img {
+    transition: .2s linear;
+}
+
+.inner__img__img {
+    display: block;
+    transition: opacity .1s linear;
+}
+
 
 /* COVER */
 .cover__4 {
@@ -634,7 +647,7 @@ button a {
 .button__cover:hover {
     width: 384px;
     height: 48px;
-    background-color:rgb(204, 156, 110);
+    background-color:#cc9c6e;
     border: none;
 
     position: relative;
@@ -709,6 +722,18 @@ input {
     background-color: #212A2F;
     color: #fff;
     border: 2px solid #212A2F;
+    text-transform: uppercase;
+    
+    padding: 0;
+}
+
+.subscribe__button:hover {
+    width: 111px;
+    height: 48px;
+    background-color: #cc9c6e;
+    color: #212A2F;
+    font-weight: bold;
+    border: 2px solid #cc9c6e;
     text-transform: uppercase;
     
     padding: 0;
